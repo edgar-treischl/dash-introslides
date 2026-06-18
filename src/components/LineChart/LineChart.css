@@ -1,0 +1,96 @@
+/* LineChart component styles */
+
+.class-retention-mfe__chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  background: white;
+  border-radius: 8px;
+  overflow: visible;
+}
+
+.class-retention-mfe__grid-line {
+  stroke: #e5e7eb;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.class-retention-mfe__axis-line {
+  stroke: #1f2937;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.class-retention-mfe__axis-label {
+  fill: #374151;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.class-retention-mfe__axis-label--y {
+  font-size: 12px;
+  text-anchor: end;
+}
+
+.class-retention-mfe__axis-title {
+  fill: #1f2937;
+  font-weight: 500;
+}
+
+.class-retention-mfe__tooltip-bg {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+}
+
+.class-retention-mfe__tooltip-text {
+  fill: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.class-retention-mfe__tooltip-label {
+  fill: #374151;
+}
+
+/* Legend styles */
+.class-retention-mfe__chart-legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  justify-content: center;
+}
+
+.class-retention-mfe__legend-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.class-retention-mfe__legend-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.class-retention-mfe__legend-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.class-retention-mfe__legend-swatch {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
