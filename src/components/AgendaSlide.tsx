@@ -20,7 +20,7 @@ const agendaListStyle = {
 
 export function AgendaSlide() {
   return (
-    <Slide backgroundColor="#f8fbff">
+    <Slide backgroundColor="#ffffff">
       <FlexBox height="100%" flexDirection="column" justifyContent="center" alignItems="flex-start" padding="60px 80px">
         <Heading 
           fontSize="72px" 

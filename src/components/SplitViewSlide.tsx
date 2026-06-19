@@ -17,7 +17,7 @@ interface SplitViewSlideProps {
  * Reusable split view slide component with configurable left/right content areas
  * @param leftContent - Content to display in the left panel
  * @param rightContent - Content to display in the right panel
- * @param backgroundColor - Slide background color (default: #f8fbff)
+ * @param backgroundColor - Slide background color (default: #ffffff)
  * @param leftWidth - Left panel flex basis (default: 40%)
  * @param rightWidth - Right panel flex basis (default: 60%)
  * @param gap - Gap between panels (default: 40px)
@@ -28,7 +28,7 @@ interface SplitViewSlideProps {
 export function SplitViewSlide({
   leftContent,
   rightContent,
-  backgroundColor = '#f8fbff',
+  backgroundColor = '#ffffff',
   leftWidth = '40%',
   rightWidth = '60%',
   gap = '40px',

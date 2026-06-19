@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Deck } from 'spectacle';
 import { WelcomeSlide } from './components/WelcomeSlide';
 import { AgendaSlide } from './components/AgendaSlide';
+import { Dashboards } from './components/Dashboards';
 import { RetentionChartSlide } from './components/RetentionChartSlide';
 import { deckTheme } from './theme/deckTheme';
 
@@ -13,6 +14,7 @@ function App() {
     <Deck theme={deckTheme}>
       <WelcomeSlide />
       <AgendaSlide />
+      <Dashboards />
       <RetentionChartSlide
         minYear={chartMinYear}
         maxYear={chartMaxYear}
